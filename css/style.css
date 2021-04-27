@@ -30,16 +30,19 @@ body {
 .float-r {
     float: right;
     padding-top: 20px;
-    
 }
 
 .float-r a {
-    padding: 5px 20px;
+    padding: 5px 13px;
     background-color: white;
     border-radius: 50%;
     margin-right: 15px;
     text-decoration: none;
     color: black;
+}
+
+.float-r a:first-child {
+    padding: 5px 15px;
 }
 
 .container:nth-last-child(3) {
