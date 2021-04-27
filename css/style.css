@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Coda Caption', sans-serif;
+}
+
 .container {
     position: relative;
     height: 100vh;
@@ -18,4 +22,27 @@
     background-color: yellow;   
 }
 
+img {
+    width: 90%;
+}
 
+#box1, #box2, #box3 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+#box1 div, #box2 div, #box3 div {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#box1 div, #box2 div {
+    color: yellow;
+}
+
+#box3 div {
+    color: green;
+}
