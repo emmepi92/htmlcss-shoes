@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+}
+.container:first-child {
+    background-color: red;   
+}
+.container:nth-child(2) {
+    background-color: green;   
+}
+.container:last-child {
+    background-color: yellow;   
+}
+
+
