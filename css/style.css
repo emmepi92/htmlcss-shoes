@@ -12,12 +12,44 @@ body {
     position: relative;
     height: 100vh;
 }
-.container:first-child {
+
+.nav-fixed {
+    position: fixed;
+    z-index: 1001;
+    width: 100%;
+    height: 100px;
+    top: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-r {
+    float: right;
+    padding-top: 20px;
+    
+}
+
+.float-r a {
+    padding: 5px 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.container:nth-last-child(3) {
     background-color: red;   
 }
-.container:nth-child(2) {
+
+.container:nth-last-child(2) {
     background-color: green;   
 }
+
 .container:last-child {
     background-color: yellow;   
 }
@@ -37,6 +69,7 @@ img {
     font-size: 40px;
     font-weight: bold;
     text-align: center;
+    line-height: 40px;
 }
 
 #box1 div, #box2 div {
