@@ -17,7 +17,7 @@ body {
     position: fixed;
     z-index: 1001;
     width: 100%;
-    height: 100px;
+    height: 70px;
     top: 0;
 }
 
@@ -55,7 +55,7 @@ body {
 }
 
 img {
-    width: 90%;
+    width: 600px;
 }
 
 #box1, #box2, #box3 {
@@ -66,10 +66,10 @@ img {
 }
 
 #box1 div, #box2 div, #box3 div {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
-    line-height: 40px;
+    line-height: 50px;
 }
 
 #box1 div, #box2 div {
