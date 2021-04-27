@@ -45,7 +45,9 @@ a {
     color: black;
 }
 
-ul> :first-child a{
+/* equivalente a:
+li:first-child a  */
+ul> :first-child a {
     padding: 5px 15px;
 }
 
