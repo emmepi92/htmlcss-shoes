@@ -49,8 +49,6 @@ ul> :first-child a{
     padding: 5px 15px;
 }
 
-
-
 .container:nth-last-child(3) {
     background-color: red;   
 }
@@ -67,24 +65,24 @@ img {
     width: 600px;
 }
 
-#box1, #box2, #box3 {
+#shoes-1, #shoes-2, #shoes-3 {
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
 }
 
-#box1 div, #box2 div, #box3 div {
+#shoes-1 div, #shoes-2 div, #shoes-3 div {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
     line-height: 50px;
 }
 
-#box1 div, #box2 div {
+#shoes-1 div, #shoes-2 div {
     color: yellow;
 }
 
-#box3 div {
+#shoes-3 div {
     color: green;
 }
